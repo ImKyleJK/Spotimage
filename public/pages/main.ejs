@@ -1,0 +1,5 @@
+<html lang="<%- user.language || 'en' %>" xml:lang="<%- user.language || 'en' %>" xmlns="http://www.w3.org/1999/xhtml">
+    <%- include('modules/head', {user: user}); %>
+    <%- include('modules/content', {user: user}); %>
+    <%- include('modules/footer', {user: user}); %>
+</html>
